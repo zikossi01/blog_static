@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Entrepreneurship & Startups - My Blog</title>
+    <title>Entrepreneurship and Startups - My Blog</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .square {
+            background-color: #f8f9fa;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #6a11cb;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .square:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .square img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .square a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 18px;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,27 +70,36 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="luxury-and-lifestyle.html">Luxury and Lifestyle</a></li>
                 <li><a href="fashion.html">Fashion</a></li>
-                <li><a href="Entrepreneurship and Startups.html">Entrepreneurship & Startups</a></li>
+                <li><a href="Entrepreneurship and Startups.html">Entrepreneurship and Startups</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="blog-content">
-        <h2>Entrepreneurship and Startups – Navigating the Path from Idea to Execution</h2>
-        <p>The world of entrepreneurship is both exhilarating and intimidating. With endless opportunities to innovate, solve problems, and create wealth, it’s no surprise that millions of people dream of launching their own startups. However, turning an idea into a thriving business requires more than just ambition—it takes strategic planning, resilience, and the ability to adapt to a constantly changing market.</p>
-        <h3>The Startup Journey: From Concept to Reality</h3>
-        <p>Launching a startup can feel like a rollercoaster, filled with ups, downs, and unexpected turns. Whether you're building a tech company, a consumer brand, or a service-oriented business, there are a few key stages every entrepreneur must navigate:</p>
-        <p>1.Finding the Right Idea – The first challenge is identifying a viable idea. A good startup idea typically solves a specific problem or fills a market gap. It’s not enough to simply create something cool; the product or service must meet an actual need. Market research, user interviews, and competitive analysis are essential for validating your concept.<p>
-        <p>2.Building the Foundation – Once you have your idea, the next step is creating a business model. This includes determining your target audience, pricing structure, and marketing strategy. It’s also the time to decide on your company's structure, whether you’re starting solo or building a team. For many, this is when investors or partners come into play.<p>
-        <p>3.Product Development – At this stage, you begin developing your product or service. This is often where entrepreneurs face the most challenges, especially if they are working with a new technology or a unique offering. Prototyping, testing, and iterating based on feedback are all crucial parts of this phase.<p>  
-        <p>Marketing and Growth – With your product ready, it's time to market it to your target audience. Social media, digital advertising, influencer partnerships, and PR are some of the most effective ways to create awareness and attract customers. As your startup grows, you’ll need to scale your marketing efforts and refine your approach based on performance data.<p>
-            <h4>The Challenges Every Entrepreneur Faces</h4>
-        <p>While there’s no one-size-fits-all recipe for entrepreneurial success, there are certain skills that can make or break a startup:<p>
-        <p>Resilience and Adaptability – The startup journey is filled with obstacles and setbacks. Being able to pivot, learn from failures, and keep moving forward is essential.<p>
-        <p>Leadership – As a founder, you’ll need to inspire and lead your team, making key decisions while maintaining a strong vision for the company.</p>
-        <p>Financial Acumen – Understanding your business’s financials is crucial. Cash flow management, budgeting, and forecasting can help ensure that you don’t run out of resources before reaching key milestones..</p>
-        <h5>Turning Your Dream Into Reality<h5>
-            <p>The entrepreneurial journey is a marathon, not a sprint. While success may not come overnight, persistence, careful planning, and a passion for your idea can lead to remarkable outcomes. If you're ready to take the leap, focus on executing your vision one step at a time—and remember, every challenge you face is an opportunity to learn and grow.<p>
+    <section class="container">
+        <div class="square">
+            <img src="images/The Rise of AI-Based Startups.jpg" alt="The Rise of AI-Based Startups">
+            <a href="https://www.ip2mkt.org/post/the-rise-of-ai-based-startups-revolutionizing-industries-with-intelligent-innovation">The Rise of AI-Based Startups</a>
+        </div>
+        <div class="square">
+            <img src="images/5 Key Steps to Succeed as a First-Time Manager.jpg" alt="5 Key Steps to Succeed as a First-Time Manager">
+            <a href="https://www.entrepreneur.com/leadership/5-key-steps-to-succeed-as-a-first-time-manager/484753">5 Key Steps to Succeed as a First-Time Manager</a>
+        </div>
+        <div class="square">
+            <img src="images/63 Small Business Ideas to Start in 2024.jpg" alt="63 Small Business Ideas to Start in 2024">
+            <a href="https://www.entrepreneur.com/starting-a-business/need-a-business-idea-here-are-55/201588">63 Small Business Ideas to Start in 2024</a>
+        </div>
+        <div class="square">
+            <img src="images/The AI Tool Your Competitors Don't Want You to Know About.jpg" alt="The AI Tool Your Competitors Don't Want You to Know About">
+            <a href="https://www.entrepreneur.com/science-technology/the-ai-tool-your-competitors-dont-want-you-to-know-about/485123">The AI Tool Your Competitors Don't Want You to Know About</a>
+        </div>
+        <div class="square">
+            <img src="images/Demystifying Your Profit & Loss Statement — A Guide for Franchisees.jpg" alt="Demystifying Your Profit & Loss Statement — A Guide for Franchisees">
+            <a href="https://www.entrepreneur.com/franchises/how-to-measure-success-with-your-income-statement/454304">Demystifying Your Profit & Loss Statement — A Guide for Franchisees</a>
+        </div>
+        <div class="square">
+            <img src="images/Why Japan Won’t Stop Trying to Invest in the U.S..jpg" alt="Why Japan Won’t Stop Trying to Invest in the U.S.">
+            <a href="https://www.nytimes.com/2025/01/04/business/us-steel-nippon-japan-takeover.html">Why Japan Won’t Stop Trying to Invest in the U.S.</a>
+        </div>
     </section>
 
     <footer>
